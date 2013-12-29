@@ -13,7 +13,7 @@ then
 	echo "Checking out GlotPress SVN"
 	svn checkout http://glotpress.svn.wordpress.org/trunk/ htdocs
 	cp htdocs/gp-config-sample.php htdocs/gp-config.php
-	sed -i 's/username/gp/g' vagrant htdocs/gp-config.php
+	sed -i 's/username/gp/g' htdocs/gp-config.php
 	sed -i 's/password/gp/g' htdocs/gp-config.php
 else
 	echo "Updating GlotPress SVN"
