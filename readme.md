@@ -1,6 +1,6 @@
 # GlotPress for VVV
 
-This is a simple GlotPress trunk auto-sitesetup designed to be used with [Varying Vagrants Vagrant](https://github.com/10up/varying-vagrant-vagrants/).
+This is a simple GlotPress trunk auto-sitesetup designed to be used with [Varying Vagrants Vagrant](https://github.com/10up/varying-vagrant-vagrants/). It is based on [VVV Auto Bootstrap Demo](https://github.com/simonwheatley/vvv-demo-3) by @simonwheatley
 
 To get started:
 
@@ -11,4 +11,3 @@ To get started:
 5. Followed by `vagrant up --provision`.  Perhaps a cup of tea now? The provisioning may take a while.
 
 Then you can visit [http://glotpress.dev/](http://glotpress.dev/). The default username/password is `admin`.
-
