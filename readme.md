@@ -9,5 +9,5 @@ To get started:
 3. Clone this branch of this repo into the `www` directory of your Vagrant as `www/vvv-glotpress`
 4. If your Vagrant is running, from the Vagrant directory run `vagrant halt`
 5. Followed by `vagrant up --provision`.  Perhaps a cup of tea now? The provisioning may take a while.
-
-Then you can visit [http://glotpress.dev/](http://glotpress.dev/). The default username/password is `admin`.
+6. Open [http://glotpress.dev/](http://glotpress.dev/) in your browser. You will be redirected to the admin user creation.
+7. Create a user and your GlotPress install is ready
