@@ -9,10 +9,10 @@ mysql -u root --password=root -e "GRANT ALL PRIVILEGES ON glotpress.* TO gp@loca
 echo -e "\n DB operations done.\n\n"
 
 # Nginx Logs
-if [[ ! -d /srv/logs/glotpress ]]; then
-	mkdir /srv/logs/glotpress
-	touch /srv/logs/glotpress/error.log
-	touch /srv/logs/glotpress/access.log
+if [[ ! -d /srv/log/glotpress ]]; then
+	mkdir /srv/log/glotpress
+	touch /srv/log/glotpress/error.log
+	touch /srv/log/glotpress/access.log
 fi
 
 # Download GlotPress
